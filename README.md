@@ -4,6 +4,8 @@ This repository serves as a template for data science projects within the WAIT c
 
 ## Project structure
 
+### Blah!
+
 ```
 /data                # Directory for storing raw data and processed datasets.
 /docs                # Documentation files for the project.
