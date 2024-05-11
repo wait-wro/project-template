@@ -30,17 +30,17 @@ This repository serves as a template for data science projects within the WAIT c
  ┣ 📂02_Interim                       # where file has been generated.
  ┃ ┗ 📜01_SelectedFeutures.csv          
  ┗ 📂03_Processed
- ┃ ┗ 📜02_ProcessedData.csv     <---- # This file has been generated in the 02_FeatureEngineering.ipynb         
+ ┃ ┗ 📜02_ProcessedData.csv     <---- # File generated in the 02_FeatureEngineering.ipynb         
 📦docs                   
 📦figures
- ┗ 📜03_TargetDistribution.png  <---- # This file has been generated in the 03_ExploratoryDataAnalysis.ipynb
+ ┗ 📜03_TargetDistribution.png  <---- # File generated in the 03_ExploratoryDataAnalysis.ipynb
 📦models                
 📦notebooks
  ┣ 📜.gitkeep
- ┣ 📜01_DataPreprocessing.ipynb         # The numbering of files suggests the order of execution,
- ┣ 📜02_FeatureEngineering.ipynb        # while descriptive naming provides clear insights       
- ┣ 📜03_ExploratoryDataAnalysis.ipynb   # into the content and purpose of each file
- ┣ 📜04_Modeling.ipynb                  # facilitating an organized and logical workflow.
+ ┣ 📜01_DataPreprocessing.ipynb       # The numbering of files suggests the order of execution,
+ ┣ 📜02_FeatureEngineering.ipynb      # while descriptive naming provides clear insights       
+ ┣ 📜03_ExploratoryDataAnalysis.ipynb # into the content and purpose of each file
+ ┣ 📜04_Modeling.ipynb                # facilitating an organized and logical workflow.
  ┗ 📜05_ModelsEvaluation.ipynb
 📜.gitignore            
 📜 README.md            
