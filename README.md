@@ -2,33 +2,49 @@
 
 This repository serves as a template for data science projects within the WAIT community. It is structured to ensure consistency and efficiency in the development process. By using this template, members can adhere to best practices and streamline collaboration.
 
-## Project structure
-
-### Blah!
-
-```
-/data                # Directory for storing raw data and processed datasets.
-/docs                # Documentation files for the project.
-/models              # Serialized models, model predictions, and model summaries.
-/notebooks           # Jupyter notebooks for explorations and presentations.
-/reports             # Generated analysis as HTML, PDF, LaTeX, etc.
-/src                 # Source code for use in this project.
-.gitignore           # Specifies intentionally untracked files to ignore.
-requirements.txt     # Project dependencies for reproducibility.
-README.md            # The top-level README for developers using this project.
-```
+## Recommended Project's structure
 
 ```
 📦data                  <-- Directory for storing data
  ┣ 📂01_Raw             <-- The original, immutable data dump.
  ┣ 📂02_Interim         <-- Intermediate data that has been transformed.
  ┗ 📂03_Processed       <-- The final data sets for modeling.
-📦figures               <-- Generated graphics and figures to be used in reporting. 
-                            Naming convention is a number (for ordering)
-📦models
-📦notebooks             <-- Jupyter notebooks. Naming convention is a number (for ordering) e.g. `01_RawDataPreprocessing.ipynb`
+📦docs                  <-- Documentation files (eg. markdown files linked with Readme.md)
+📦figures               <-- Generated graphics and figures to be used in reporting.
+📦models                <-- Trained and serialized models.
+📦notebooks             <-- Jupyter notebooks named in the following convention e.g. `01_RawDataLoad.ipynb`
 📜.gitignore            <-- Specifies intentionally untracked files to ignore.
 📜 Reamde.md            <-- The top-level README for developers using this project.
+
+```
+
+## Recommended files naming convention
+
+- To properly navigate through the project pipeline, notebooks should be executed in the order specified by their names, ensuring each step builds on the previous one.
+- Generated files are stored in `data`, `figures`, and `models` folders, with names prefixed by numbers that correspond to the generating notebook for easy traceability.
+
+```
+📦data
+ ┣ 📂01_Raw
+ ┃ ┗ 📜01_DataCompetencySurvey.csv    # The number in the prefix of the filename indicates the notebook 
+ ┣ 📂02_Interim                       # where file has been generated.
+ ┃ ┗ 📜01_SelectedFeutures.csv          
+ ┗ 📂03_Processed
+ ┃ ┗ 📜02_ProcessedData.csv     <---- # This file has been generated in the 02_FeatureEngineering.ipynb         
+📦docs                   
+📦figures
+ ┗ 📜03_TargetDistribution.png  <---- # This file has been generated in the 03_ExploratoryDataAnalysis.ipynb
+📦models                
+📦notebooks
+ ┣ 📜.gitkeep
+ ┣ 📜01_DataPreprocessing.ipynb         # The numbering of files suggests the order of execution,
+ ┣ 📜02_FeatureEngineering.ipynb        # while descriptive naming provides clear insights       
+ ┣ 📜03_ExploratoryDataAnalysis.ipynb   # into the content and purpose of each file
+ ┣ 📜04_Modeling.ipynb                  # facilitating an organized and logical workflow.
+ ┗ 📜05_ModelsEvaluation.ipynb
+📜.gitignore            
+📜 Reamde.md            
+
 
 
 ```
