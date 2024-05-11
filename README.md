@@ -17,3 +17,18 @@ This repository serves as a template for data science projects within the WAIT c
 requirements.txt     # Project dependencies for reproducibility.
 README.md            # The top-level README for developers using this project.
 ```
+
+```
+📦data                  <-- Directory for storing data
+ ┣ 📂01_Raw             <-- The original, immutable data dump.
+ ┣ 📂02_Interim         <-- Intermediate data that has been transformed.
+ ┗ 📂03_Processed       <-- The final data sets for modeling.
+📦figures               <-- Generated graphics and figures to be used in reporting. 
+                            Naming convention is a number (for ordering)
+📦models
+📦notebooks             <-- Jupyter notebooks. Naming convention is a number (for ordering) e.g. `01_RawDataPreprocessing.ipynb`
+📜.gitignore            <-- Specifies intentionally untracked files to ignore.
+📜 Reamde.md            <-- The top-level README for developers using this project.
+
+
+```
