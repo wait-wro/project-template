@@ -5,14 +5,14 @@ This repository serves as a template for data science projects within the WAIT c
 ## Recommended Project's structure
 
 ```
-📦data                  <-- Directory for storing data
+📦data                  <-- Directory for storing data.
  ┣ 📂01_Raw             <-- The original, immutable data dump.
  ┣ 📂02_Interim         <-- Intermediate data that has been transformed.
  ┗ 📂03_Processed       <-- The final data sets for modeling.
-📦docs                  <-- Documentation files (eg. markdown files linked with README.md)
+📦docs                  <-- Documentation files (eg. markdown files linked with README.md).
 📦figures               <-- Generated graphics and figures to be used in reporting.
 📦models                <-- Trained and serialized models.
-📦notebooks             <-- Jupyter notebooks named in the following convention e.g. `01_RawDataLoad.ipynb`
+📦notebooks             <-- Jupyter notebooks named in the following convention e.g. `01_RawDataLoad.ipynb`.
 📜.gitignore            <-- Specifies intentionally untracked files to ignore.
 📜 Reamde.md            <-- The top-level README for developers using this project.
 
