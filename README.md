@@ -26,7 +26,7 @@ This repository serves as a template for data science projects within the WAIT c
 ```
 📦data
  ┣ 📂01_Raw
- ┃ ┗ 📜01_DataCompetencySurvey.csv    # The number in the prefix of the filename indicates the notebook 
+ ┃ ┗ 📜01_DataCompetencySurvey.csv    # The number in the prefix of the filename indicates the notebook
  ┣ 📂02_Interim                       # where file has been generated.
  ┃ ┗ 📜01_SelectedFeutures.csv          
  ┗ 📂03_Processed
