@@ -9,7 +9,7 @@ This repository serves as a template for data science projects within the WAIT c
  ┣ 📂01_Raw             <-- The original, immutable data dump.
  ┣ 📂02_Interim         <-- Intermediate data that has been transformed.
  ┗ 📂03_Processed       <-- The final data sets for modeling.
-📦docs                  <-- Documentation files (eg. markdown files linked with Readme.md)
+📦docs                  <-- Documentation files (eg. markdown files linked with README.md)
 📦figures               <-- Generated graphics and figures to be used in reporting.
 📦models                <-- Trained and serialized models.
 📦notebooks             <-- Jupyter notebooks named in the following convention e.g. `01_RawDataLoad.ipynb`
@@ -43,8 +43,5 @@ This repository serves as a template for data science projects within the WAIT c
  ┣ 📜04_Modeling.ipynb                  # facilitating an organized and logical workflow.
  ┗ 📜05_ModelsEvaluation.ipynb
 📜.gitignore            
-📜 Reamde.md            
-
-
-
+📜 README.md            
 ```
